@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 	
 	@GetMapping(value="/")
-	public String testRequest() {
+	public String request() {
 		return "Hello, data";
+	}
+	
+	@GetMapping(value="/test")
+	public String testRequest() {
+		return "Hello, test data";
 	}
 
 }
