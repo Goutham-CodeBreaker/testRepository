@@ -1,0 +1,5 @@
+/target/*
+.class
+/.class
+/SampleProject/target/*
+SampleProject/target/*

@@ -23,9 +23,9 @@ public class SampleController {
 		return "Hello, conflict11 data";
 	}
 	
-	@GetMapping(value="/conflict22")
+	@GetMapping(value="/conflict2")
 	public String conflict3Request() {
-		return "Hello, conflict22 data";
+		return "Hello, conflict2 data";
 	}
 
 }
