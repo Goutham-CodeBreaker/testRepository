@@ -18,8 +18,13 @@ public class SampleController {
 		return "Hello, test data";
 	}
 	
-	@GetMapping(value="/conflict")
-	public String conflictRequest() {
+	@GetMapping(value="/conflict1")
+	public String conflict1Request() {
+		return "Hello, conflict data";
+	}
+	
+	@GetMapping(value="/conflict2")
+	public String conflict2Request() {
 		return "Hello, conflict data";
 	}
 
