@@ -13,19 +13,19 @@ public class SampleController {
 		return "Hello, empty data";
 	}
 	
-	@GetMapping(value="/test")
+	@GetMapping(value="/test1")
 	public String testRequest() {
-		return "Hello, test data";
+		return "Hello, test1 data";
 	}
 	
 	@GetMapping(value="/conflict1")
 	public String conflict1Request() {
-		return "Hello, conflict data";
+		return "Hello, conflict1 data";
 	}
 	
 	@GetMapping(value="/conflict2")
 	public String conflict2Request() {
-		return "Hello, conflict data";
+		return "Hello, conflict2 data";
 	}
 
 }
