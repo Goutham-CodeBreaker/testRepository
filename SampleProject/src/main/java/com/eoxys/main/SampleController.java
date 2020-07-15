@@ -9,13 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 	
 	@GetMapping(value="/")
-	public String request() {
-		return "Hello, data";
+	public String requestEmpty() {
+		return "Hello, empty data";
 	}
 	
 	@GetMapping(value="/test")
 	public String testRequest() {
 		return "Hello, test data";
+	}
+	
+	@GetMapping(value="/conflict")
+	public String conflictRequest() {
+		return "Hello, conflict data";
 	}
 
 }
