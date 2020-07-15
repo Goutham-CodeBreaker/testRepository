@@ -1,6 +1,9 @@
 /target/*
+/target/**
 .class
 /.class
 /SampleProject/target/*
 SampleProject/target/*
 /target/
+target/**
+target/*
